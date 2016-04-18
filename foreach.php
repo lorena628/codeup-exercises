@@ -12,7 +12,7 @@ foreach ($things as $valType) {
     }elseif(is_array($valType)) {
         //cannot print out nested array so need a new foreach to print out what's in the array
        foreach ($valType as $arrayItem) {
-       echo "{$arrayItem} \n";    
+       echo "ARRAY item {$arrayItem}\n";    
        }
     }elseif(is_numeric($valType)) {
         echo "{$valType} \n";
