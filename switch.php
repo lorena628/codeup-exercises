@@ -7,8 +7,8 @@
  // 1 (for Monday) through 7 (for Sunday)
  $dayOfWeek = date('N');
 
-//this is break case
- switch($dayOfWeek) {
+//this is switch case
+switch($dayOfWeek) {
     case 1:
         echo "It's Monday \n";
         break;
@@ -22,18 +22,16 @@
         echo "It's Thursday \n";
         break;
     case 5: 
-        echo "It's friday \n";
+        echo "It's Friday \n";
         break;
     case 6: 
-        echo "It's saturday \n";
+        echo "It's Saturday \n";
         break;
     case 7: 
-        echo "It's sunday \n";
+        echo "It's Sunday \n";
         break;
- }
-
- // $dayOfWeek = date('N');
-
+} 
+//this does the same thing as switch case
  if($dayOfWeek==1){
     echo "It's monday \n";
  }elseif($dayOfWeek==2){
