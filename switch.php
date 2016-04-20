@@ -37,7 +37,7 @@ switch($dayOfWeek) {
  }elseif($dayOfWeek==2){
     echo "It's tuesday \n";
  }elseif($dayOfWeek==3){
-    echo "It's Wednesday \n";
+    echo "It's wednesday \n";
  }elseif($dayOfWeek==4){
     echo "It's thursday \n";
  }elseif($dayOfWeek==5){
