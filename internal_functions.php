@@ -4,17 +4,17 @@
 function inspect ($iVar)
 {
     if(is_string($iVar)){
-        return "this is a string";
+        return " this is a string with value '{$iVar}'";
     }elseif(is_array($iVar)){
-        return "this is an array";
+        return  " this is an array";
     }elseif(is_bool($iVar)){
-        return "this is a boolean";
-    }elseif(is_integer($iVar)){
-        return "this is an integer";
-    }elseif(is_numeric($iVar)){
-        return "this is numeric";
+        return " this is a boolean with value '{$iVar}'";
+    }elseif(is_int($iVar)){
+        return " this is an integer with value '{$iVar}'";
+    }elseif(is_float($iVar)){
+        return " this is float with value " . number_format($iVar, 1);
     }elseif(is_null($iVar)){
-        return "this is null";
+        return " the value is NULL";
     }
 }
 // Do not mofify these variables!

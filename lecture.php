@@ -24,14 +24,6 @@ foreach ($names as $userName => $studentName) {
 
 
 
-
-
-
-
-
-
-
-
 // $a = 0;
 // do {
 //     $a++;

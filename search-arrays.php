@@ -9,12 +9,12 @@ function check($names, $name)
 {
     //the ===false is if the name that is being searched is equivalent in both type and value...in this case 'Tina' is at index of zero, being so, 'Tina' is not false so we have to put === so it is not mistaken as false which would happen if it was == ...it is a static check
     if(array_search($name, $names)===false){
-    return false ;
+    return false ; //dont return a string
     }else {
-        return true ;
+        return true ;//dont return a string
     }
 }
-//this compare function is using $count to return number of values in common between the 2 arrays
+//this compare function is using $count to return number of values in common between the 2 arrays but is not necessarily "comparing"
 function compare($names, $compare)
 {
     $count=0;
