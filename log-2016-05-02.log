@@ -1,0 +1,37 @@
+2016-05-02 10:50:57=CDT [INFO] Information
+2016-05-02 10:50:57=CDT [ERROR] Error
+2016-05-02 UTC16:22:59INFOinformartion message
+2016-05-02 UTC16:22:59ERRORerror message
+2016-05-02 UTC16:23:26INFO:informartion message
+2016-05-02 UTC16:23:26ERROR:error message
+2016-05-02 UTC16:23:39 INFO:informartion message
+2016-05-02 UTC16:23:39 ERROR:error message
+2016-05-02 UTC16:24:34 [INFO]:informartion message
+2016-05-02 UTC16:24:34 [ERROR]:error message
+2016-05-02 UTC16:25:57 [INFO]: THIS is an informartion message
+2016-05-02 UTC16:25:57 [ERROR]: THIS is an error message
+2016-05-02 UTC16:28:49 [INFO]: THIS is an informartion message
+2016-05-02 UTC16:28:49 [ERROR]: THIS is an error message
+2016-05-02 UTC16:35:04 [INFO]: THIS is an informartion message
+2016-05-02 UTC16:35:04 [ERROR]: THIS is an error message
+
+2016-05-02 04:35:39=UTC [ [INFO]:]  THIS is an informartion message
+2016-05-02 04:35:39=UTC [ [ERROR]:]  THIS is an error message
+2016-05-02 04:36:28=UTC [ INFO:]  THIS is an informartion message
+2016-05-02 04:36:28=UTC [ ERROR:]  THIS is an error message
+2016-05-02 04:36:45=UTC [INFO:]  THIS is an informartion message
+2016-05-02 04:36:45=UTC [ERROR:]  THIS is an error message
+2016-05-02 04:39:40=UTC [INFO:] THIS is an informartion message
+2016-05-02 04:39:40=UTC [ERROR:] THIS is an error message
+2016-05-02 04:39:55=UTC [INFO:] THIS is an informartion message.
+2016-05-02 04:39:55=UTC [ERROR:] THIS is an error message.
+2016-05-02 04:43:01=UTC [INFO:] THIS is an informartion message.
+2016-05-02 04:43:01=UTC [ERROR:] THIS is an error message.
+2016-05-02 04:45:38=UTC [INFO:] THIS is an informartion message.
+2016-05-02 04:45:38=UTC [ERROR:] THIS is an error message.
+2016-05-02 04:46:14=UTC [INFO:] THIS is an informartion message.
+2016-05-02 04:46:14=UTC [ERROR:] THIS is an error message.
+2016-05-02 04:52:14=UTC [INFO:] THIS is an informartion message.
+2016-05-02 04:52:14=UTC [ERROR:] THIS is an error message.
+2016-05-02 06:54:39=UTC [INFO:] THIS is an informartion message.
+2016-05-02 06:54:39=UTC [ERROR:] THIS is an error message.
