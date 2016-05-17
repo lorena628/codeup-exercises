@@ -12,6 +12,6 @@ class Square extends Rectangle
     }
     public function area()
     {
-        return $this->height * $this->width;
+    return ($this->width * 2) + ($this->height * 2) ;
     }
 };
