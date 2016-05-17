@@ -1,0 +1,20 @@
+<?php
+
+class File
+{
+    public $filename;
+    public $handle;
+    public function __construct($prefix)
+    {
+        $this->
+        $this->handle = fopen($)
+
+    }
+    public function append()
+    {
+
+    }
+    public function __destruct()
+    {
+        fclose($this->handle);
+    hello Joshuahello Joshuahello Joshuahello Joshuahello Joshua
