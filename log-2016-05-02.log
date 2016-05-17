@@ -35,3 +35,8 @@
 2016-05-02 04:52:14=UTC [ERROR:] THIS is an error message.
 2016-05-02 06:54:39=UTC [INFO:] THIS is an informartion message.
 2016-05-02 06:54:39=UTC [ERROR:] THIS is an error message.
+2016-05-02 08:36:35=UTC [DEBUG] this is a debug message
+2016-05-02 08:36:35=UTC [INFO:] this is an info message
+2016-05-02 08:36:35=UTC [ERROR:] this is an error message
+2016-05-02 08:36:35=UTC [INFO:] this is an info message
+2016-05-02 08:36:35=UTC [ERROR:] this is an error message

@@ -1,13 +1,10 @@
 <?php
-
 class Log
 {
-        
     public $filename;
     public $handle;
     public function __construct($prefix)
     {
-        echo 'log';
         $currentDate = date('Y-m-d');
         $this->filename = $prefix . "log-{$currentDate}.log";
         $this->handle = fopen($this->filename, 'a');
@@ -38,9 +35,8 @@ class Log
     // public function nameFile()
     // {
     //     $currentDate = date('Y-m-d');
-
     //     //setting the files name to a variable
     //     $this->filename = "log-{$currentDate}.log";
     // }
-
 }
+

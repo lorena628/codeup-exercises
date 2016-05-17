@@ -10,7 +10,7 @@ $handle = fopen($filename, 'r');
 
 //gets the contents of the file from the bookmark and will give all of its contents
 // fread graps the contents after connection is made filesize is "how much" of it we are opening
-$contents = fread($handle, filesize($filename));
+$contents = fread($handle, filesize($filename)). PHP_EOL ;
 echo $contents;
 
 // fclose is necessary ALWAYS!
