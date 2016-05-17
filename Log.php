@@ -1,14 +1,23 @@
 <?php
 class Log
 {
-    public $filename;
-    public $handle;
+    private $filename;
+    private $handle;
+
     public function __construct($prefix)
     {
         $currentDate = date('Y-m-d');
+        $this->setFilename($prefix);
+        $this->setHandle();
+    }
+    public function setFilename ($prefix) {
         $this->filename = $prefix . "log-{$currentDate}.log";
+    }
+    public function setHandle () {
         $this->handle = fopen($this->filename, 'a');
     }
+
+
     public function __destruct()
     {
         fclose($this->handle);
