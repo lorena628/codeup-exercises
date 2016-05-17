@@ -3,15 +3,33 @@ class Square extends Rectangle
 {
     public function __construct($height)
     {
-        parent:: __construct ($height, $height);
+        parent::__construct($height, $height);
     }
-    public function getPerimeter() 
+    public function perimeter()
     {
-        // return ($this->width * 2) + ($this->height * 2) ;
-        return pow ($this->height() , 2);
+        return $this->getHeight() * 4;
     }
-    public function getArea()
+    public function area()
     {
-        return $this->height * 4;
+        return pow($this->getHeight(), 2);
     }
-};
+}
+
+
+
+// class Square extends Rectangle
+// {
+//     public function __construct($height)
+//     {
+//         parent:: __construct ($height, $height);
+//     }
+//     public function getPerimeter() 
+//     {
+//         // return ($this->width * 2) + ($this->height * 2) ;
+//         return pow ($this->height() , 2);
+//     }
+//     public function getArea()
+//     {
+//         return $this->height * 4;
+//     }
+// };
