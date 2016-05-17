@@ -1,0 +1,42 @@
+<?php
+class Automobile
+{
+    public $make;
+    public $model;
+    public $miles;
+    public $speed = 0;
+    public $owner;
+
+    public function __construct ($make,$model, $owner)
+    {
+        $this->make = $make;
+        $this->model = $model;
+        $this->uniqueIdentifier = uniqid();
+        $this->owner = $owner;
+    }
+
+    public function speedUp ($increment)
+    {
+        $this->speed = $this->speed + $increment;
+    }
+
+    public function applyBrakes($decrement)
+    {
+        $this->speed =$this ->speed + $increment;
+    }
+
+    public function honk()
+    {
+        return "HONK HONK" . PHP_EOL;
+    }
+
+    public function screechingHalt()
+    {
+        $this-> honk ();
+        $this-> applyBrakes($this->speed);
+        
+    }
+}
+
+
+
