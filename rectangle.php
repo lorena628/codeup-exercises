@@ -1,8 +1,9 @@
 <?php
+
 class Rectangle
 {
-    public $height;
     public $width;
+    public $height;
 
     public function __construct($width, $height)
     {
